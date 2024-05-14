@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinto Project</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gyep</h1>
+      <div class="form">
+        
+        
+        <div class="row">
+          <div class="col">
+            <label for="atmero">Átmérő</label>
+            <input type="text" class="form-control" id="atmero" required>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col">
+              <button id="calcButton" class="btn mt-2">Számít</button>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="terulet" >Ennyi gyeptégla szükséges (m2)</label>
+          <input type="text" id="terulet" class="form-control" readonly>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="ar">Ár</label>
+          <input type="text" class="form-control" id="ar" readonly>
+        </div>
+      </div>
+
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
